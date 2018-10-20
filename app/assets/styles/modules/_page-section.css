@@ -4,6 +4,7 @@
 
 	&--blue{
 		background-color: $mainBlue;
+		color: #fff;
 	}
 
 	@mixin atMedium{
