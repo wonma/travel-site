@@ -10,6 +10,10 @@
 		font-weight: 500;
 	}
 
+	&--blue {
+		color: $mainBlue;
+	}
+
 	@mixin atSmall{
 		font-size: 3rem;
 	}
@@ -18,7 +22,7 @@
 
 		display:block;
 		margin:0 auto 1rem auto;
-		transform: translateY(8px);
+		transform: translateY(12px);
 
 		@mixin atSmall{
 			display: inline-block;
