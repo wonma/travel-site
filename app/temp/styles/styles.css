@@ -786,19 +786,49 @@ a {
 .feature-item{
 
 	position:relative;
-	padding-left: 85px;
 	margin-bottom: 4rem;
 
 }
+
+@media (min-width:530px){
+
+.feature-item{
+		padding-left: 85px
+
+}
+	}
 
 .feature-item__title{
 		font-size:1.8rem;
 		font-weight: 400;
 		margin-bottom: 1rem;
+		text-align: center;
+		margin-top: .7rem;
+
+	}
+
+@media (min-width:530px){
+
+.feature-item__title{
+			text-align: left;
+			margin-top:0
+
+	}
 	}
 
 .feature-item__icon{
-		position: absolute;
-		top:0;
-		left:0;
+
+		display:block;
+		margin:0 auto;
+
+	}
+
+@media (min-width:530px){
+
+.feature-item__icon{
+			position: absolute;
+			top:0;
+			left:0
+
+	}
 	}
