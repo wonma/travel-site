@@ -1,0 +1,20 @@
+
+.feature-item{
+
+	position:relative;
+	padding-left: 85px;
+	margin-bottom: 4rem;
+
+	&__title{
+		font-size:1.8rem;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+
+	&__icon{
+		position: absolute;
+		top:0;
+		left:0;
+	}
+
+}
