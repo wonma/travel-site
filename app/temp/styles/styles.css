@@ -1059,3 +1059,28 @@ a {
 		height: 42px;
 		background-position: 36.69752421959096% 45.792307692307695%;
 	}
+
+.site-footer {
+	color:#fff;
+	background-color: #2f5572;
+	padding:3rem 0;
+	text-align: center;
+
+}
+
+.site-footer__text {
+		display:block;
+		margin:0 0 1rem 0;
+		font-weight: 200;
+	}
+
+@media (min-width:800px){
+		.site-footer__text {
+			display:inline-block;
+			margin: 0 1rem 0 0;
+		}
+	}
+
+.site-header {
+	background-color: rgba(#2f5572, .3);
+}
