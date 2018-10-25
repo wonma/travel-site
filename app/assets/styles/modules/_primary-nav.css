@@ -58,7 +58,7 @@
 			padding:0;
 
 			&.is-current-link {
-				color: red;
+				color: #fabb69;
 			}
 		}
 		
