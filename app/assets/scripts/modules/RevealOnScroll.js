@@ -17,9 +17,12 @@ class RevealOnScroll {
 
 	createWaypoint() {
 		var targetObject = this;
+
 		this.itemsToReveal.each(function(){
 			var revealItemEach = this;
+
 			new Waypoint({
+
 				element: revealItemEach,
 				handler: function(){
 					$(revealItemEach).addClass("reveal-item--visible");

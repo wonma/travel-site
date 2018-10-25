@@ -56,6 +56,10 @@
 			font-size: 1rem;
 			background-color: transparent;
 			padding:0;
+
+			&.is-current-link {
+				color: red;
+			}
 		}
 		
 	}
