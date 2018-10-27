@@ -10,6 +10,10 @@
 		max-width: 976px;
 	}
 
+	&--small {
+		max-width: 470px;
+	}
+
 	.wrapper{
 		padding:0;
 	}

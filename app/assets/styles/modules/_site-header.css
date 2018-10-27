@@ -44,7 +44,7 @@
 		text-indent: -9999px;
 	}
 
-	&__btn-container {
+	.btn {
 
 		@mixin atMedium {
 		
