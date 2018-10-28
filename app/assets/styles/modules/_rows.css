@@ -99,7 +99,7 @@
 
 	}
 
-	&--flex{
+	.flexbox &--flex{
 
 		@mixin atLarge {
 
