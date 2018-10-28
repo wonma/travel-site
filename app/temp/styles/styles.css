@@ -595,9 +595,8 @@ a {
 	}
 
 @media (min-width:530px){
-
 			.page-section--testimonial.lazyloaded {
-				background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+				background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
 				background-size: cover;
 			}
 	}
@@ -1006,10 +1005,10 @@ a {
 
 /* This is recipe */
 
-.icon {background-image:url('/assets/images/sprites/sprite-e79e95cc.svg');}
+.icon {background-image:url('../../assets/images/sprites/sprite-e79e95cc.svg');}
 
 .no-svg .icon {
-			background-image:url('/assets/images/sprites/sprite-e79e95cc.png');
+			background-image:url('../../assets/images/sprites/sprite-e79e95cc.png');
 		}
 
 .icon--clear-view-escapes {
